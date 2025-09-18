@@ -1,0 +1,37 @@
+# ---- Java / Spring Boot
+target/
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+*.bak
+
+# ---- Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# ---- Gradle (ถ้าใช้)
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ---- IDE / Editor
+/.project
+/.classpath
+/.settings/
+/.idea/
+.vscode/
+
+# ---- OS Files
+.DS_Store
+Thumbs.db
+
+# ---- Optional: Secrets & Config
+*.env
+application-*.yml
+application-*.properties
